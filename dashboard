@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>مايوركا داشبورد</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        iframe {
+            border: none;
+            width: 1024px;
+            height: 1060px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <iframe title="داشبورد" 
+        src="https://app.powerbi.com/view?r=eyJrIjoiMDBlYTk4ZWEtMTEyOS00NGRhLTk4OGUtYzNlMTI1OWRkMTU2IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" 
+        allowfullscreen="true">
+    </iframe>
+</body>
+</html>
